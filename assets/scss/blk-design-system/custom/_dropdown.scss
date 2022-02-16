@@ -295,6 +295,8 @@
 
 .btn {
   cursor: pointer;
+  justify-content: center;
+  display: flex;
 
   &.dropdown-toggle[data-toggle="dropdown"] {
     padding: 10px;
