@@ -217,8 +217,8 @@
 }
 
 .page-header {
-  min-height: 100vh;
-  max-height: 1200px;
+  min-height: auto;
+  max-height: none;
   padding: 0;
   color: $white;
   position: relative;
@@ -244,13 +244,7 @@
   }
 
   .content-center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     z-index: 2;
-    -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     text-align: center;
     color: $white;
     padding: 0 15px;
